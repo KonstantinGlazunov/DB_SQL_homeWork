@@ -1,5 +1,5 @@
 --1. Вывести ко-во поставщиков не из UK и не из China
-SELECT COUNT(*) AS_Not_UK_China_suppliers 
+SELECT COUNT(*) AS Not_UK_China_suppliers 
 
 FROM [Suppliers]
 WHERE
