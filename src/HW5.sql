@@ -1,6 +1,6 @@
 //1. Вывести ко-во незаблокированных юзеров не из Germany
 db.users.countDocuments(
-    {country: 'Germany', is_blocked: null}
+    {country: {$ne: 'Germany'}, is_blocked: null}
         )
 
 // 2. Вывести имена юзеров не из Germany
